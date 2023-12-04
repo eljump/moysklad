@@ -7,7 +7,7 @@
 **В данном форке изменен базовый поддомен по умолчанию (с 'online' на 'api'), а так же есть изменения в маршрутах (с '1.1' на '1.2'). Возможны ошибки**
 
 ## Установка<br />
-    composer require tooyz/moysklad
+    composer require eljump/moysklad
     
 **Запуск тестов:**<br />
     1) composer global require phpunit/phpunit<br />
