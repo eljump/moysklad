@@ -20,17 +20,17 @@ class MoySkladHttpClient{
     private $preRequestSleepTime = 200;
 
     private
-        $posEndpoint = "https://online.moysklad.ru/api/posap/1.0/",
+        $posEndpoint = "https://api.moysklad.ru/api/posap/1.0/",
         $login,
         $password,
         $posToken;
 
-    public function __construct($login, $password, $posToken, $subdomain = "online")
+    public function __construct($login, $password, $posToken, $subdomain = "api")
     {
         $this->login = $login;
         $this->password = $password;
         $this->posToken = $posToken;
-        $this->endpoint = "https://" . $subdomain . ".moysklad.ru/api/remap/1.1/";
+        $this->endpoint = "https://" . $subdomain . ".moysklad.ru/api/remap/1.2/";
     }
 
     public function setPosToken($posToken){
