@@ -1,6 +1,5 @@
 {
-    "name": "tooyz/moysklad",
-    "description": "Get it here: https://github.com/Tooyz/moysklad",
+    "name": "eljump/moysklad",
     "require": {
         "php": ">=7.2",
         "guzzlehttp/guzzle": "^7.0.1"
