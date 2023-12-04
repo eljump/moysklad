@@ -2,7 +2,7 @@
     "name": "eljump/moysklad",
     "require": {
         "php": ">=7.2",
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^6.5"
     },
     "authors": [
         {
