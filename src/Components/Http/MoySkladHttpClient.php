@@ -157,7 +157,8 @@ class MoySkladHttpClient{
         }
 
         $headers = [
-            "Authorization" => "Basic " . base64_encode($this->login . ':' . $password)
+            "Authorization" => "Basic " . base64_encode($this->login . ':' . $password),
+            "Accept-Encoding" => "gzip"
         ];
         $config = [
             "base_uri" => $endpoint,
